@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 
 import '../assets/stylesheets/application.scss';
 
-const Hello = props => <div>Hello, {props.name}</div>;
+import Hello from './components/hello.jsx'
+
 
 const root = document.getElementById('root');
 if (root) {
